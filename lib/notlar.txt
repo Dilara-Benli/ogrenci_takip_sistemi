@@ -1,0 +1,25 @@
+AppBar-mavi kısım
+Center-merkezi kısım
+button'da event'ler var, biri de onPressed
+onPressed- bir kere basıldığında -bir fonk
+AlertDialog-emin misin diye soran
+Column-alt alta widgetler'ı eklemeye yarıyor. body'nin yanındaki ampulden wrap with column
+children-listedeki her bir eleman
+size vs. hataları alırsanız iki widget'ı bağdaştırabilecek araya widget lazım.
+listView başındaki ampul-wrap widget-Expanded
+ListView.builder elinddeki veriye göre, dinamik
+itemBuilder fonk. itemCount kadar çalışıyor
+Scaffold,AppBar,Text hepsi birer class
+listView.builder, döngü çalıştıran bir constructor
+
+trailing-son kısım, leading-ilk kısım
+NetworkImage-internet üzerindeki bir resme adres vererek ulaşma
+
+StatelessWidget'lar aslında ekranın daha hızlı çizildiği ama state yönetim ihtiyacı olmayan widget türü
+StatelessWidget'ta ekran bir kere çiziliyor, bir daha çizilmiyor
+setState() -buildBody yapısını çalıştır ve seciliOgrenci'yi kullanan neresi varsa yeniden çiz
+
+push-eklemek
+edge-köşe demek, all dediğin zaman her taraftan
+mixin, with'lerle kullanılır
+value! ??
