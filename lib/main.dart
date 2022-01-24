@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:temel_widget/models/student.dart';
 import 'package:temel_widget/screens/student_add.dart';
+import 'package:temel_widget/screens/student_edit.dart';
 
 void main() {
   runApp(MaterialApp(home: MyApp()));
@@ -112,8 +113,7 @@ class _MyAppState extends State<MyApp> {
                   ],
                 ),
                 onPressed: () {
-                  var sms = "Güncellendi";
-                  mesajGoster(context, sms);
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>StudentEdit(selectedStudent)));
                 },
               ),
             ),
